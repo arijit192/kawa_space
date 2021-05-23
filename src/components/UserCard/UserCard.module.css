@@ -1,0 +1,52 @@
+.container {
+  height: 90px;
+  width: 270px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: default;
+}
+.container_selected {
+  height: 90px;
+  width: 270px;
+  background: #a259ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: default;
+}
+
+.container div {
+  margin-left: 16px;
+}
+.container_selected div {
+  margin-left: 16px;
+}
+.gender {
+  color: grey;
+  font-weight: 200;
+  font-size: 0.8em;
+}
+.gender_selected {
+  color: white;
+  font-weight: 200;
+  font-size: 0.8em;
+}
+.name {
+  font-weight: bold;
+  font-size: 1em;
+}
+.name_selected {
+  font-weight: bold;
+  font-size: 1em;
+  color: white;
+}
+.email {
+  color: #e16259;
+  font-size: 0.78em;
+}
+.email_selected {
+  color: white;
+  font-size: 0.78em;
+}

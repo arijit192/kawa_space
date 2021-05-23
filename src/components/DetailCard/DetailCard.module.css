@@ -1,0 +1,386 @@
+@media only screen and (min-width: 1290px) {
+  .container {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    height: 24vh;
+    width: 48%;
+    margin: 2rem;
+    border-radius: 1vw;
+    filter: drop-shadow(0 0 0.4rem rgb(206, 205, 205));
+  }
+  .avatarContainer {
+    margin-left: 3.5vw;
+  }
+  .avatar {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+  }
+  .infoContainer {
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+    color: #e16259;
+    font-size: 1.8em;
+    text-decoration: underline;
+  }
+  .address {
+    font-size: 1em;
+  }
+  .country {
+    font-weight: bold;
+  }
+  .streetNumber {
+    color: #a259ff;
+  }
+  .zone {
+    text-decoration: underline;
+    font-size: 1em;
+  }
+  .gender {
+    color: grey;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 1244px) {
+  .container {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    height: 24vh;
+    width: 48%;
+    margin: 2rem;
+    border-radius: 1vw;
+    filter: drop-shadow(0 0 0.4rem rgb(206, 205, 205));
+  }
+  .avatarContainer {
+    margin-left: 3.5vw;
+  }
+  .avatar {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+  }
+  .infoContainer {
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+    color: #e16259;
+    font-size: 1.5em;
+    text-decoration: underline;
+  }
+  .address {
+    font-size: 1em;
+  }
+  .country {
+    font-weight: bold;
+  }
+  .streetNumber {
+    color: #a259ff;
+  }
+  .zone {
+    text-decoration: underline;
+    font-size: 1em;
+  }
+  .gender {
+    color: grey;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 1243px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #ffffff;
+    height: 24vh;
+    width: 48%;
+    margin: 2rem;
+    border-radius: 1vw;
+    filter: drop-shadow(0 0 0.4rem rgb(206, 205, 205));
+  }
+  .avatarContainer {
+    margin-left: 3.5vw;
+  }
+  .avatar {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+  }
+  .infoContainer {
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+    color: #e16259;
+    font-size: 1em;
+    text-decoration: underline;
+  }
+  .address {
+    font-size: 1em;
+  }
+  .country {
+    font-weight: bold;
+  }
+  .streetNumber {
+    color: #a259ff;
+  }
+  .zone {
+    text-decoration: underline;
+    font-size: 1em;
+  }
+  .gender {
+    color: grey;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    height: 24vh;
+    width: 94%;
+    margin: 2rem;
+    border-radius: 1vw;
+    filter: drop-shadow(0 0 0.4rem rgb(206, 205, 205));
+  }
+  .avatarContainer {
+    margin-left: 7vw;
+  }
+  .avatar {
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+  }
+  .infoContainer {
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+    color: #e16259;
+    font-size: 1.3em;
+    text-decoration: underline;
+  }
+  .address {
+    font-size: 0.9em;
+  }
+  .country {
+    font-weight: bold;
+  }
+  .streetNumber {
+    color: #a259ff;
+  }
+  .zone {
+    text-decoration: underline;
+    font-size: 0.9em;
+  }
+  .gender {
+    color: grey;
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .container {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    height: 24vh;
+    width: 94%;
+    margin: 2rem;
+    border-radius: 1vw;
+    filter: drop-shadow(0 0 0.4rem rgb(206, 205, 205));
+  }
+  .avatarContainer {
+    margin: 4vw;
+  }
+  .avatar {
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+  }
+  .infoContainer {
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+    color: #e16259;
+    font-size: 1.1em;
+    text-decoration: underline;
+  }
+  .address {
+    font-size: 0.9em;
+  }
+  .country {
+    font-weight: bold;
+  }
+  .streetNumber {
+    color: #a259ff;
+  }
+  .zone {
+    text-decoration: underline;
+    font-size: 0.9em;
+  }
+  .gender {
+    color: grey;
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  .container {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    height: 24vh;
+    width: 94%;
+    margin: 2rem;
+    border-radius: 1vw;
+    filter: drop-shadow(0 0 0.4rem rgb(206, 205, 205));
+  }
+  .avatarContainer {
+    margin: 4vw;
+  }
+  .avatar {
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+  }
+  .infoContainer {
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+    color: #e16259;
+    font-size: 0.9em;
+    text-decoration: underline;
+  }
+  .address {
+    font-size: 0.7em;
+  }
+  .country {
+    font-weight: bold;
+  }
+  .streetNumber {
+    color: #a259ff;
+  }
+  .zone {
+    text-decoration: underline;
+    font-size: 0.7em;
+  }
+  .gender {
+    color: grey;
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    height: 24vh;
+    width: 94%;
+    margin: 2rem;
+    border-radius: 1vw;
+    filter: drop-shadow(0 0 0.4rem rgb(206, 205, 205));
+  }
+  .avatarContainer {
+    margin: 4vw;
+  }
+  .avatar {
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+  }
+  .infoContainer {
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+    color: #e16259;
+    font-size: 0.9em;
+    text-decoration: underline;
+  }
+  .address {
+    font-size: 0.7em;
+  }
+  .country {
+    font-weight: bold;
+  }
+  .streetNumber {
+    color: #a259ff;
+  }
+  .zone {
+    text-decoration: underline;
+    font-size: 0.7em;
+  }
+  .gender {
+    color: grey;
+    font-size: 0.7em;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    height: 24vh;
+    width: 94%;
+    margin: 2rem;
+    border-radius: 1vw;
+    filter: drop-shadow(0 0 0.4rem rgb(206, 205, 205));
+  }
+  .avatarContainer {
+    margin: 4vw;
+  }
+  .avatar {
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+  }
+  .infoContainer {
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+    color: #e16259;
+    font-size: 0.9em;
+    text-decoration: underline;
+  }
+  .address {
+    font-size: 0.7em;
+  }
+  .country {
+    font-weight: bold;
+  }
+  .streetNumber {
+    color: #a259ff;
+  }
+  .zone {
+    text-decoration: underline;
+    font-size: 0.7em;
+  }
+  .gender {
+    color: grey;
+    font-size: 0.7em;
+  }
+}
